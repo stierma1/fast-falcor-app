@@ -1,13 +1,7 @@
-# fast-falcor-app
-Setup a falcor express app quickly
-
-## Example
-
-```js
 var express = require("express");
 var app = express();
 
-var fastFalcor = require("fast-falcor");
+var fastFalcor = require("../lib/fast-falcor");
 
 var dataObject = {
   id:"john_doe",
@@ -32,4 +26,3 @@ var dataObjectsToRoutes = [{dataRoute, dataObject, dataService, expires:-10}];
 fastFalcor({dataObjectsToRoutes, expressApp:app, apiEndpointPath:"/api", falcorBrowserEndpoint: "/falcor.browser.js"})
 
 app.listen(8080);
-```
