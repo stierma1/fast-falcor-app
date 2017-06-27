@@ -1,6 +1,6 @@
 {
   "name": "fast-falcor-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Setup a falcor express app quickly",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,8 @@
   },
   "homepage": "https://github.com/stierma1/fast-falcor-app#readme",
   "dependencies": {
-    "compression": "^1.6.2",
     "falcor-express": "^0.1.4",
     "falcor-router": "^0.8.1",
-    "falcor-routes-from-object": "^1.0.2"
+    "falcor-routes-from-object": "^1.0.3"
   }
 }
